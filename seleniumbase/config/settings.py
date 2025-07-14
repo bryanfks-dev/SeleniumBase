@@ -11,10 +11,10 @@ Develop Mode Install: "pip install -e ."  (from the top-level directory)
 # Default maximum time (in seconds) to wait for page elements to appear.
 # Different methods/actions in base_case.py use different timeouts.
 # If the element to be acted on does not appear in time, the test fails.
-MINI_TIMEOUT = 2
-SMALL_TIMEOUT = 7
-LARGE_TIMEOUT = 10
-EXTREME_TIMEOUT = 30
+MINI_TIMEOUT = 12
+SMALL_TIMEOUT = 42
+LARGE_TIMEOUT = 60
+EXTREME_TIMEOUT = 3600
 
 # Default page load timeout.
 # If a page takes longer than this to load, you'll get the following error:

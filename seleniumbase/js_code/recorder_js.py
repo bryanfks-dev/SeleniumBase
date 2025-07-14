@@ -128,6 +128,7 @@ var getBestSelector = function(el) {
     selector_by_class = cssPathByClass(el);
     tag_name = tagName(el);
     non_id_attributes = [];
+    non_id_attributes.push('healthyonekey');
     non_id_attributes.push('name');
     non_id_attributes.push('data-qa');
     non_id_attributes.push('data-tid');
